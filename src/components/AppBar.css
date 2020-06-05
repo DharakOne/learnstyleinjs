@@ -1,0 +1,41 @@
+   .search input[type=text]{ 
+        width: 100%;
+        height:100%; 
+        border-radius:3px; 
+        border: none; 
+        padding: 0;
+        font-size: inherit; 
+        font-weight: inherit;
+        
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        text-indent:10px;
+    }
+
+.search input::placeholder { /* Edge */
+    text-indent:2px;
+    color: #AFAFAF;
+}   
+
+.search input:focus::placeholder { /* Edge */
+    color: white;
+}   
+
+
+
+
+
+
+.search input[type=text]:focus{ 
+    border: 2px #FAC87E solid;
+    outline:none;
+}
+          
+.search{ 
+    float:right; 
+    flex-grow: 1;
+    font-size: 24;
+    font-weight: bolder;
+    margin: 6.5px;
+}
+
